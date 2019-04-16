@@ -1,4 +1,5 @@
-# john
+# john/trab joao victor
+
 pwd: Este comando mostra aonde estou no sistema e detalha todo o caminho.
 
 uname -a : Exibe qual é o meu sistema.
@@ -29,4 +30,8 @@ cd: Acessa o diretório que direcionamos tal comando (cd .. : Faz com que voltam
 
 vim: Editor de texto full-screen melhorado.
 
-pico: Editor de texto screen-oriented, que tambem chamamos de nano.
+pico: Editor de texto screen-oriented, que tambem chamamos de "NANO".
+
+passwd: Mudar a password do nosso utilizador.
+
+tar: Cria ou extrai arquivos, compressão de arquivos.
