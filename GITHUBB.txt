@@ -1,0 +1,1052 @@
+(EXERCICIOS LÓGICA)
+
+14-
+
+<?php
+$a = 0;
+$b = 0;
+echo "Insira o valor de a:";
+$a = readline();
+echo "Insira o valor de b:";
+$b = readline();
+if ($a > $b) {
+   echo "O valor de A é maior que o valor de b!";
+} else if ($b > $a) {
+   echo "O valor de B é maior que o valor de a!";
+} else {
+   echo "os valores são iguais!";
+}
+
+?>
+
+15-
+
+<?php
+$x = 0;
+echo "Insira um valor para X:";
+$x = readline();
+if ($x % = 0) {
+   echo "Este valor é par!";
+} else {
+   echo "este valor é impar!";
+}
+
+?>
+
+16-
+
+<?php
+$o = false;
+while ($o == false) { 
+   echo "Senac2019!";
+   $o = readline();
+}
+
+?>
+
+17-
+
+<?php
+$x = 0:
+while ($x == false) { 
+   echo $x;
+   $x = $x + 1;
+}
+
+?>
+
+18-
+
+<?php
+$n = 0;
+for ($n = 1; $n <= 50; $n++) {
+    echo $n;
+}
+
+?>
+
+19-
+
+<?php
+$i = 0;
+for ($i = 1; $i <= 100; $i++) {
+    if (($i % 2) <> 0) {
+        echo $i;
+    }
+}
+
+?>
+
+20-
+
+<?php
+$i = 0;
+for ($i = 1; $i <= 100; $i++) {
+    if (($i % 2) == 0) {
+        echo $i;
+    }
+}
+
+?>
+
+(EXERCICIOS VETOR)
+
+
+VETOR.1-
+
+<?php
+$v = array();
+$i = 0;
+
+for ($i = 0; $i < 20; $i++) {
+     $v[$i] = 0;
+}
+
+?>
+
+
+VETOR.2-
+
+<?php
+$v = array();
+$r = 0;
+
+for ($r = 0; $r < 30; $r++) {
+     $v[$r] = 0;
+}
+for ($r = 0; $r < 30; $r++) {
+     echo "Digite um valor real!";
+     $v[$r] = readline();
+}
+  
+?>
+
+VETOR.3-
+
+<?php
+$v = array();
+$i = 0;
+
+for ($i = 0; $i < 10; $i++) {
+     $v[$i] = 0;
+}
+for ($i = 0; $i < 10; $i++) {
+     echo "Digite um valor!";
+     $v[$i] = readline();
+}
+for ($i = 0; $i < 10; $i++) {
+     echo " O valor de V na posição";
+     echo $i;
+     echo "é:";
+     echo $v[$i] = 0;
+}
+  
+?>
+
+
+VETOR.4-
+
+<?php
+$v = array();
+$i = 0;
+$total = 0;
+for ($i = 0; $i < 15; $i++) {
+     $v[$i] = 0;
+}
+for ($i = 0; $i < 15; $i++) {
+     echo "Digite um valor:";
+     $v[$i] = readline();
+}
+for ($i = 0; $i < 15; $i++) {
+      echo "O valor de V na posição";
+      echo $i;
+      echo "é:";
+      echo $v[$i] = 0;
+}
+for ($i = 0; $i < 15; $i++) {
+     $total = $total + $v[$i];
+}
+echo "A soma de todos os valores do vetor é";
+echo $total;
+
+?>
+
+
+VETOR.5-
+
+<?php
+$v = array();
+$i = 0;
+$total = 0;
+for ($i = 0; $i < 25; $i++) {
+     $v[$i] = 0;
+}
+for ($i = 0; $i < 25; $i++) {
+     echo "Digite um valor:";
+     $v[$i] = readline();
+}
+for ($i = 0; $i < 25; $i++) {
+     $total = $total * $v[$i];
+}
+echo "A multiplicação total é:";
+echo $total;
+
+?>
+
+
+VETOR.6-
+
+<?php
+$v = array();
+$i = 0;
+$total = 0;
+for ($i = 0; $i < 5; $i++) {
+     $v[$i] = 0;
+}
+for ($i = 0; $i < 5; $i++) {
+     echo "Digite um valor:";
+     $v[$i] = readline();
+}
+for ($i = 0; $i < 5; $i++) {
+     $total = $total * $v[$i];
+}
+for ($i = 0; $i < 5; $i++) {
+     $total = $total / $v[$i];
+}
+echo "O resultado é:";
+echo $total;
+
+?>
+
+
+VETOR.7-
+
+<?php
+$v = array();
+$i = 0;
+$total = 0;
+for ($i = 0; $i < 20; $i++) {
+     $v[$i] = 0;
+}
+for ($i = 0; $i < 20; $i++) {
+     echo "Digite um valor:";
+     $v[$i] = readline();
+}
+for ($i = 0; $i < 20; $i++) {
+     if (($v[$i]) % 2 == 0) {
+        $total = $total + $v[$i];
+     } 
+}
+echo "O resultado da soma dos numeros par é:";
+echo $total;
+
+?>
+
+
+VETOR.8-
+
+<?php
+$v = array();
+$i = 0;
+$total = 0;
+for ($i = 0; $i < 20; $i++) {
+     $v[$i] = 0;
+}
+for ($i = 0; $i < 20; $i++) {
+     echo "Digite um valor:";
+     $v[$i] = readline();
+}
+for ($i = 0; $i < 20; $i++) {
+     if (($v[$i]) % 2 <> 0) {
+        $total = $total + $v[$i];
+     } 
+}
+echo "O resultado da soma dos numeros impares é:";
+echo $total;
+
+?>
+
+
+VETOR.9-
+
+<?php
+$v = array();
+$i = 0;
+$total = 0;
+for ($i = 0; $i < 10; $i++) {
+     $v[$i] = 0;
+}
+for ($i = 0; $i < 10; $i++) {
+     echo "Digite um valor:";
+     $v[$i] = readline();
+}
+for ($i = 0; $i < 10; $i++) {
+     if (($v[$i]) % 2 == 0) {
+        $total = $total + $v[$i];
+     } 
+}
+for ($i = 0; $i < 10; $i++) {
+     if (($v[$i]) % 2 <> 0) {
+        $total = $total / $v[$i];
+     } 
+}
+echo "O resultado final é:";
+echo $total;
+
+?>
+
+
+VETOR.10-
+
+<?php
+$v = array();
+$i = 0;
+for ($i = 0; $i < 10; $i++) {
+     $v[$i] = 0;
+}
+for ($i = 0; $i < 10; $i++) {
+     if (($v[$i]) % 2 == 0) {
+        echo "Digite o numero oito!";
+        $v[$i] = readline();
+     } else if (($v[$i]) % 2 <> 0) {
+        echo "Digite o numero três!";
+        $v[$i] = readline();
+     }
+}
+
+?>
+
+(EXERCICIOS MATRIZ)
+
+
+MATRIZ.1-
+
+<?php
+
+$m = array();
+$i = 0;
+$j = 0;
+
+for ($i = 0; $i < 5; $i++) {
+  for ($j = 0; $j < 5; j++) {
+    $m[$i] = array();
+    $m[$i][$j] = 0;
+  }
+}
+
+?>
+
+MATRIZ.2-
+
+<?php
+
+$m = array();
+$i = 0;
+$j = 0;
+
+for ($i = 0; $i < 4; $i++) {
+  for ($j = 0; $j < 4; j++) {
+    $m[$i] = array();
+    $m[$i][$j] = 0;
+  }
+}
+for ($i = 0; $i < 4; $i++) {
+  for ($j = 0; $j < 4; j++) {
+    $m[$i][$j] = readline();
+  }
+}
+
+?>
+
+MATRIZ.3-
+
+<?php
+
+$m = array();
+$a = 0;
+$b = 0;
+
+for ($a = 0; $a < 3; $a++) {
+  for ($b = 0; $b < 3; $b++) {
+    $m[$a][$b] = 0;
+  }
+}
+for ($a = 0; $a < 3; $a++) {
+  for ($b = 0; $b < 3; $b++) {
+    $m[$a][$b] = readline();
+  }
+}
+for ($a = 0; $a < 3; $a++) {
+  for ($b = 0; $b < 3; $b++) {
+    echo "O valor na posicao A";
+    echo $a;
+    echo "$b";
+    echo $b;
+    echo "é";
+    echo $m[$a][$b];
+  }
+}
+ 
+?>
+
+MATRIZ.4-
+
+<?php
+
+$m = array();
+$i = 0;
+$j = 0;
+$total = 0;
+
+for ($i = 0; $i < 3; $i++) {
+  for ($j = 0; $j < 3; $j++) {
+    $m[$i][$j] = 0;
+  }
+}
+for ($i = 0; $i < 3; $i++) {
+  for ($j = 0; $j < 3; $j++) {
+    $m[$i][$j] = readline();
+  }
+}
+for ($i = 0; $i < 3; $i++) {
+  for ($j = 0; $j < 3; $j++) {
+    $total = $total + $m[$i][$j];
+  }
+}
+
+echo "A soma total é:";
+echo $total;
+
+?>    
+
+MATRIZ.5-
+<?php
+
+$m = array();
+$i = 0;
+$j = 0;
+$total = 0;
+
+for ($i = 0; $i < 2; $i++) {
+  for ($j = 0; $j < 2; $j++) {
+    $m[$i][$j] = 0;
+  }
+}
+for ($i = 0; $i < 2; $i++) {
+  for ($j = 0; $j < 2; $j++) {
+    $m[$i][$j] = readline();
+  }
+}
+for ($i = 0; $i < 2; $i++) {
+  for ($j = 0; $j < 2; $j++) {
+    $total = $total * $m[$i][$j];
+  }
+}
+echo "A multiplicação dos valores é:";
+echo $total;
+$total = 0;
+
+for ($i = 0; $i < 2; $i++) {
+  $total = $total + $m[$i][$i];
+}
+echo "A soma da diagonal é:";
+echo $total;
+
+?>    
+
+MATRIZ.6-
+
+<?php
+
+$m = array();
+$i = 0;
+$j = 0;
+$total = 0;
+
+for ($i = 0; $i < 2; $i++) {
+  for ($j = 0; $j < 2; $j++) {
+    $m[$i][$j] = 0;
+  }
+}
+for ($i = 0; $i < 2; $i++) {
+  for ($j = 0; $j < 2; $j++) {
+    $m[$i][$j] = readline();
+  }
+}
+for ($i = 0; $i < 2; $i++) {
+  for ($j = 0; $j < 2; $j++) {
+    $total = $total * $m[$i][$j];
+  }
+}
+echo "A multiplicação dos valores é:";
+echo $total;
+
+for ($i = 0; $i < 2; $i++) {
+    $total = $total / $m[$i][$i];
+}
+echo "A divisão é:";
+echo $total;
+
+?>    
+
+MATRIZ.7-
+
+<?php
+
+$m = array();
+$i = 0;
+$r = 0;
+$total = 0;
+
+for ($i = 0; $i < 3; $i++) {
+  for ($r = 0; $r < 4; $r++) {
+    $m[$i][$r] = 0;
+  }
+}
+for ($i = 0; $i < 3; $i++) {
+  for ($r = 0; $r < 4; $r++) {
+    $m[$i][$r] = readline();
+  }
+}
+for ($i = 0; $i < 3; $i++) {
+  for ($r = 0; $r < 4; $r++) {
+    if (($m [$i][$r] % 2) == 0) {
+       $total = $total + $m[$i][$r];
+    }
+  }
+}
+echo "A soma total é:";
+echo $total;
+
+?>    
+
+MATRIZ.8-
+
+<?php
+
+$m = array();
+$i = 0;
+$r = 0;
+$total = 0;
+
+for ($i = 0; $i < 3; $i++) {
+  for ($r = 0; $r < 4; $r++) {
+    $m[$i][$r] = 0;
+  }
+}
+for ($i = 0; $i < 3; $i++) {
+  for ($r = 0; $r < 4; $r++) {
+    $m[$i][$r] = readline();
+  }
+}
+for ($i = 0; $i < 3; $i++) {
+  for ($r = 0; $r < 4; $r++) {
+    if (($m [$i][$r] % 2) <> 0) {
+       $total = $total + $m[$i][$r];
+    }
+  }
+}
+echo "A soma total é:";
+echo $total;
+
+?>    
+
+MATRIZ.9-
+
+<?php
+
+$m = array();
+$i = 0;
+$n = 0;
+$total = 0;
+
+for ($i = 0; $i < 3; $i++) {
+  for ($n = 0; $n < 4; $n++) {
+    $m[$i][$n] = 0;
+  }
+}
+for ($i = 0; $i < 3; $i++) {
+  for ($n = 0; $n < 4; $n++) {
+    echo "Digite um valor";
+    $m[$i][$n] = readline();
+  }
+}
+for ($i = 0; $i < 3; $i++) {
+  for ($n = 0; $n < 4; $n++) {
+    if (($m [$i][$n] % 2) == 0) {
+       $total = $total + $m[$i][$n];
+    }
+  }
+}
+for ($i = 0; $i < 3; $i++) {
+  for ($n = 0; $n < 4; $n++) {
+    if (($m [$i][$n] % 2) <> 0) {
+       $total = $total / $m[$i][$n];
+    }
+  }
+}
+echo "A soma total é:";
+echo $total;
+
+?>    
+
+MATRIZ.10-
+
+<?php
+
+$m = array();
+$i = 0;
+$j = 0;
+
+for ($i = 0; $i < 3; $i++) {
+  for ($j = 0; $j < 4; $j++) {
+    $m[$i][$j] = 0;
+  }
+}
+for ($i = 0; $i < 3; $i++) {
+  for ($j = 0; $j < 4; $j++) {
+    if (($m[$i][$j] % 2) == 0) {
+      echo "Digite a tecla OITO!"
+      $m[$i][$j] = readline();
+    } else if (($m[$i][$j] % 2) <> 0) {
+      echo "Digite a tecla TRÊS!";
+      $m[$i][$j] = readline();
+    } else {
+      echo "Digite ZERO!";
+      $m[$i][$j] = readline();
+  }
+}
+
+?>    
+
+(EXERCICIOS REGISTRO)
+
+REGISTRO.1-
+
+<?php
+
+$p = array();
+$cad = array();
+$i = 0;
+
+for ($i = 0; $i < 4; $i++) {
+    $p ["nome"] = " ";
+    $p ["sexo"] = " ";
+    $p ["idade"] = 0;
+    $p ["estadocivil"] = " ";
+}
+
+?>
+
+REGISTRO.2-
+
+<?php
+
+$l = array();
+$cad = array();
+$i = 0;
+
+for ($i = 0; $i < 3; $i++) {
+    $l ["titulo"] = " ";
+    $l ["datadecriação"] = 0;
+    $l ["editora"] = " ";
+    $l ["escritor"] = " ";
+    $i ["gênero"] = " ";
+}
+
+?>
+
+REGISTRO.3-
+
+<?php
+
+$c = array();
+$cad = array();
+$i = 0;
+
+for ($i = 0; $i < 2; $i++) {
+    $c ["marca"] = " ";
+    $c ["anodelançamento"] = 0;
+    $c ["fabricante"] = " ";
+}
+
+?>
+
+REGISTRO.4-
+
+<?php
+
+$p = array();
+$cad = array();
+$i = 0;
+
+for ($i = 0; $i < 5; $i++) {
+    $p ["nome"] = " ";
+    $p ["sexo"] = " ";
+    $p ["idade"] = 0;
+    $p ["estadocivil"] = " ";
+}
+for ($i = 0; $i < 5; $i++) {
+    echo "Digite o nome";
+    $p ["nome"] = readline();
+    echo "Digite o sexo";
+    $p ["sexo"] = readline();
+    echo "Digite a idade";
+    $p ["idade"] = readline();
+    echo "Digite o estadocivil";
+    $p ["estadocivil"] = readline();
+    $cad[$i] = $p;
+}
+
+?>
+
+REGISTRO.5-
+
+<?php
+
+$f = array();
+$cad = array();
+$e = 0;
+
+for ($e = 0; $e < 2; $e++) {
+    $f ["titulo"] = " ";
+    $f ["gênero"] = " ";
+    $f ["lançamento"] = 0;
+    $f ["produtora"] = " ";
+}
+for ($e = 0; $e < 2; $e++) {
+    echo "Digite o titulo do filme";
+    $f ["titulo"] = readline();
+    echo "Digite o gênero do filme";
+    $f ["gênero"] = readline();
+    echo "Digite a data de lançamento do filme";
+    $f ["lançamento"] = readline();
+    echo "Digite o nome da produtora";
+    $f ["produtora"] = readline();
+    $cad[$e] = $f;
+}
+
+?>
+
+REGISTRO.6-
+
+<?php
+
+$g = array();
+$cad = array();
+$n = 0;
+
+for ($n= 0; $n < 3; $n++) {
+    $g ["titulo"] = " ";
+    $g ["desenvolvedora"] = " ";
+    $g ["indicativo"] = " ";
+    $g ["lançamento"] = 0;
+    $g ["gênero"] = " ";
+}
+for ($n = 0; $n < 3; $n++) {
+    echo "Digite o titulo do jogo";
+    $g ["titulo"] = readline();
+    echo "Digite o nome da desenvolvedora";
+    $g ["desenvolvedora"] = readline();
+    echo "Digite para qual público é indicado este jogo";
+    $g ["indicativo"] = readline();
+    echo "Digite a data de lançamento do jogo";
+    $g ["lançamento"] = readline();
+    echo "Digite qual o gênero do jogo";
+    $g ["gênero"] = readline();
+    $cad[$n] = $g;
+}
+for ($n = 0; $n < 3; $n++) {
+    echo "titulo do jogo:";
+    echo $cad[$n]["titulo"];
+    echo "desenvolvedora do jogo:";
+    echo $cad[$n]["desenvoledora"];
+    echo "indicativo do jogo:";
+    echo $cad[$n]["indicativo"];
+    echo "lançamento do jogo:";
+    echo $cad[$n]["lançamento"];
+    echo "gênero do jogo:";
+    echo $cad[$n]["gênero"];
+}
+
+?>
+
+REGISTRO.7-
+
+<?php
+
+$t = array();
+$cad = array();
+$p = 0;
+
+for ($p= 0; $p < 4; $p++) {
+    $t ["nome"] = " ";
+    $t ["preço"] = 0;
+    $t ["quantidade"] = 0;
+}
+for ($p = 0; $p < 4; $p++) {
+    echo "Digite o nome do produto:";
+    $t ["nome"] = readline();
+    echo "Digite o preço do produto:";
+    $t ["preço"] = readline();
+    echo "Digite a quantidade de produtos:";
+    $t ["quantidade"] = readline();
+    $cad[$p] = $t;
+}
+for ($p = 0; $p < 4; $p++) {
+    echo "nome do produto:";
+    echo $cad[$p]["nome"];
+    echo "preço do produto:";
+    echo $cad[$p]["preço"];
+    echo "quantidade de produtos:";
+    echo $cad[$p]["quantidade"];
+}
+
+?>
+
+REGISTRO.8-
+
+<?php
+
+$t = array();
+$cad = array();
+$p = 0;
+
+for ($p= 0; $p < 4; $p++) {
+    $t ["nome"] = " ";
+    $t ["preço"] = 0;
+    $t ["quantidade"] = 0;
+}
+for ($p = 0; $p < 4; $p++) {
+    echo "Digite o nome do produto:";
+    $t ["nome"] = readline();
+    echo "Digite o preço do produto:";
+    $t ["preço"] = readline();
+    echo "Digite a quantidade de produtos:";
+    $t ["quantidade"] = readline();
+    $cad[$p] = $t;
+}
+for ($p = 0; $p < 4; $p++) {
+    echo "nome do produto:";
+    echo $cad[$p]["nome"];
+    echo "preço do produto:";
+    echo $cad[$p]["preço"];
+    echo "quantidade de produtos:";
+    echo $cad[$p]["quantidade"];
+}
+
+?>
+
+REGISTRO.9-
+
+<?php
+
+$p = array();
+$cad = array();
+$i = 0;
+
+for ($i = 0; $i < 9; $i++) {
+    $p ["nome"] = " ";
+    $p ["sexo"] = " ";
+    $p ["idade"] = 0;
+}
+for ($i = 0; $i < 9; $i++) {
+    echo "Digite o nome";
+    $p ["nome"] = readline();
+    echo "Digite o sexo";
+    $p ["sexo"] = readline();
+    echo "Digite a idade";
+    $p ["idade"] = readline();
+    $cad[$i] = $p;
+}
+for ($i = 0; $i < 9; $i++) {
+     if (($i % 2) <> 0) {
+        echo "nome da pessoa:";
+        echo $cad[$i]["nome"];
+        echo "sexo da pessoa:";
+        echo $cad[$i]["sexo"];
+        echo "idade da pessoa:";
+        echo $cad[$i]["idade"];
+
+     } else {
+          echo "Não é possivel mostra este registro!";
+     }
+}
+
+?>
+    
+
+REGISTRO.10-
+
+<?php
+
+$p = array();
+$cad = array();
+$u = 0;
+
+for ($u = 0; $u < 9; $u++) {
+    $p ["nome"] = " ";
+    $p ["sexo"] = " ";
+    $p ["idade"] = 0;
+}
+for ($u = 0; $u < 9; $u++) {
+    echo "Digite o nome";
+    $p ["nome"] = readline();
+    echo "Digite o sexo";
+    $p ["sexo"] = readline();
+    echo "Digite a idade";
+    $p ["idade"] = readline();
+    $cad[$u] = $p;
+}
+for ($u = 0; $u < 9; $u++) {
+     if (($u % 2) <> 0) {
+        echo "nome da pessoa:";
+        echo $cad[$u]["nome"];
+        echo "sexo da pessoa:";
+        echo $cad[$u]["sexo"];
+        echo "idade da pessoa:";
+        echo $cad[$u]["idade"];
+     } else {
+        echo "Não possivel mostrar esse registro!";
+     }
+}
+
+?>
+
+(EXERCICIOS OO)
+
+OO.1-
+
+<?php
+
+class pessoa {
+   private $nome;
+   private $idade;
+   private $sexo;
+}
+
+?>
+
+OO.2-
+
+<?php
+
+class livro {
+   private $titulo;
+   private $genero;
+   private $escritor;
+}
+
+?>
+
+OO.3-
+
+<?php
+
+class veiculo {
+   private $marca;
+   private $cor;
+   private $chassi;
+}
+
+?>
+
+OO.4-
+
+<?php
+
+class aluno {
+   private $nome;
+   private $serie;
+   function aluno ($nome, $serie) {
+      $this ->nome = $nome;
+      $this ->serie = $serie;
+   }
+   function setNome($nome) {
+      $this ->nome = $nome;
+   }
+   function getNome() {
+      return $this ->nome;
+   }
+   function setSerie($serie) {
+      $this ->serie = $serie;
+   }
+   function getSerie() {
+      return $this ->serie;
+   }
+}
+
+$cad = array();
+$cad[1] = new aluno();
+$cad[1] -> setNome();
+$cad[1] -> setSerie();
+
+$cad[2] = new aluno();
+$cad[2] -> setNome();
+$cad[2] -> setSerie();
+
+$cad[3] = new aluno();
+$cad[3] -> setNome();
+$cad[3] -> setSerie();
+
+$cad[4] = new aluno();
+$cad[4] -> setNome();
+$cad[4] -> setSerie();
+
+$cad[5] = new aluno();
+$cad[5] -> setNome();
+$cad[5] -> setSerie();
+
+?>
+
+OO.5-
+
+<?php
+
+class Veiculo {
+   private $marca;
+   private $cor; 
+   function setMarca($marca) {
+      $this ->marca = $marca;
+   }
+   function getMarca() {
+      return $this ->marca;
+   }
+   function setCor($cor) {
+      $this ->cor = $cor;
+   }
+   function getCor() {
+      return $this ->cor;
+   }
+}
+class Moto Extends Veiculo {
+   private $rodas;
+   function __construct($rodas) {
+      $this ->rodas = $rodas;
+   }
+}
+class Carro Extends Veiculo {
+   private $rodas;
+   function __construct($rodas) {
+      $this ->rodas = $rodas;
+   }
+}
+
+
+$play = array();
+$play[0] = new Veiculo();
+$play[0] -> setMarca();
+$play[0] -> setCor();
+
+$play[1] = new Moto();
+$play[1] -> setMarca();
+$play[1] -> setCor();
+
+$play[2] = new Carro();
+$play[2] -> setMarca();
+$play[2] -> setCor();
+
+?>
+
+
+FIM .-.
